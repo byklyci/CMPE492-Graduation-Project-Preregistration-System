@@ -1,0 +1,624 @@
+<table class="table table-bordered">
+		<tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=ASIA&amp;bolum=ASIAN+STUDIES">
+            
+            
+            ASIAN STUDIES
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=ASIA&amp;bolum=ASIAN+STUDIES+WITH+THESIS">
+            
+            
+            ASIAN STUDIES WITH THESIS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=ATA&amp;bolum=ATATURK+INSTITUTE+FOR+MODERN+TURKISH+HISTORY">
+            
+            
+            ATATURK INSTITUTE FOR MODERN TURKISH HISTORY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=AUTO&amp;bolum=AUTOMOTIVE+ENGINEERING">
+            
+            
+            AUTOMOTIVE ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=BM&amp;bolum=BIOMEDICAL+ENGINEERING">
+            
+            
+            BIOMEDICAL ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=BIS&amp;bolum=BUSINESS+INFORMATION+SYSTEMS">
+            
+            
+            BUSINESS INFORMATION SYSTEMS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CHE&amp;bolum=CHEMICAL+ENGINEERING">
+            
+            
+            CHEMICAL ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CHEM&amp;bolum=CHEMISTRY">
+            
+            
+            CHEMISTRY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CE&amp;bolum=CIVIL+ENGINEERING">
+            
+            
+            CIVIL ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=COGS&amp;bolum=COGNITIVE+SCIENCE">
+            
+            
+            COGNITIVE SCIENCE
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CSE&amp;bolum=COMPUTATIONAL+SCIENCE+%26+ENGINEERING">
+            
+            
+            COMPUTATIONAL SCIENCE &amp; ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CET&amp;bolum=COMPUTER+EDUCATION+%26+EDUCATIONAL+TECHNOLOGY">
+            
+            
+            COMPUTER EDUCATION &amp; EDUCATIONAL TECHNOLOGY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CMPE&amp;bolum=COMPUTER+ENGINEERING">
+            
+            
+            COMPUTER ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=INT&amp;bolum=CONFERENCE+INTERPRETING">
+            
+            
+            CONFERENCE INTERPRETING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CEM&amp;bolum=CONSTRUCTION+ENGINEERING+AND+MANAGEMENT">
+            
+            
+            CONSTRUCTION ENGINEERING AND MANAGEMENT
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CCS&amp;bolum=CRITICAL+AND+CULTURAL+STUDIES">
+            
+            
+            CRITICAL AND CULTURAL STUDIES
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=EQE&amp;bolum=EARTHQUAKE+ENGINEERING">
+            
+            
+            EARTHQUAKE ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=EC&amp;bolum=ECONOMICS">
+            
+            
+            ECONOMICS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=EF&amp;bolum=ECONOMICS+AND+FINANCE">
+            
+            
+            ECONOMICS AND FINANCE
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=ED&amp;bolum=EDUCATIONAL+SCIENCES">
+            
+            
+            EDUCATIONAL SCIENCES
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=CET&amp;bolum=EDUCATIONAL+TECHNOLOGY">
+            
+            
+            EDUCATIONAL TECHNOLOGY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=EE&amp;bolum=ELECTRICAL+%26+ELECTRONICS+ENGINEERING">
+            
+            
+            ELECTRICAL &amp; ELECTRONICS ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=ETM&amp;bolum=ENGINEERING+AND+TECHNOLOGY+MANAGEMENT">
+            
+            
+            ENGINEERING AND TECHNOLOGY MANAGEMENT
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=ENV&amp;bolum=ENVIRONMENTAL+SCIENCES">
+            
+            
+            ENVIRONMENTAL SCIENCES
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=ENVT&amp;bolum=ENVIRONMENTAL+TECHNOLOGY">
+            
+            
+            ENVIRONMENTAL TECHNOLOGY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=XMBA&amp;bolum=EXECUTIVE+MBA">
+            
+            
+            EXECUTIVE MBA
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=FE&amp;bolum=FINANCIAL+ENGINEERING">
+            
+            
+            FINANCIAL ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=PA&amp;bolum=FINE+ARTS">
+            
+            
+            FINE ARTS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=FLED&amp;bolum=FOREIGN+LANGUAGE+EDUCATION">
+            
+            
+            FOREIGN LANGUAGE EDUCATION
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=GED&amp;bolum=GEODESY">
+            
+            
+            GEODESY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=GPH&amp;bolum=GEOPHYSICS">
+            
+            
+            GEOPHYSICS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=GUID&amp;bolum=GUIDANCE+%26+PSYCHOLOGICAL+COUNSELING">
+            
+            
+            GUIDANCE &amp; PSYCHOLOGICAL COUNSELING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=HIST&amp;bolum=HISTORY">
+            
+            
+            HISTORY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=HUM&amp;bolum=HUMANITIES+COURSES+COORDINATOR">
+            
+            
+            HUMANITIES COURSES COORDINATOR
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=IE&amp;bolum=INDUSTRIAL+ENGINEERING">
+            
+            
+            INDUSTRIAL ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=INCT&amp;bolum=INTERNATIONAL+COMPETITION+AND+TRADE">
+            
+            
+            INTERNATIONAL COMPETITION AND TRADE
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=MIR&amp;bolum=INTERNATIONAL+RELATIONS%3aTURKEY%2cEUROPE+AND+THE+MIDDLE+EAST">
+            
+            
+            INTERNATIONAL RELATIONS:TURKEY,EUROPE AND THE MIDDLE EAST
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=MIR&amp;bolum=INTERNATIONAL+RELATIONS%3aTURKEY%2cEUROPE+AND+THE+MIDDLE+EAST+WITH+THESIS">
+            
+            
+            INTERNATIONAL RELATIONS:TURKEY,EUROPE AND THE MIDDLE EAST WITH THESIS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=INTT&amp;bolum=INTERNATIONAL+TRADE">
+            
+            
+            INTERNATIONAL TRADE
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=INTT&amp;bolum=INTERNATIONAL+TRADE+MANAGEMENT">
+            
+            
+            INTERNATIONAL TRADE MANAGEMENT
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=LS&amp;bolum=LEARNING+SCIENCES">
+            
+            
+            LEARNING SCIENCES
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=LING&amp;bolum=LINGUISTICS">
+            
+            
+            LINGUISTICS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=AD&amp;bolum=MANAGEMENT">
+            
+            
+            MANAGEMENT
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=MIS&amp;bolum=MANAGEMENT+INFORMATION+SYSTEMS">
+            
+            
+            MANAGEMENT INFORMATION SYSTEMS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=MATH&amp;bolum=MATHEMATICS">
+            
+            
+            MATHEMATICS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=SCED&amp;bolum=MATHEMATICS+AND+SCIENCE+EDUCATION">
+            
+            
+            MATHEMATICS AND SCIENCE EDUCATION
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=ME&amp;bolum=MECHANICAL+ENGINEERING">
+            
+            
+            MECHANICAL ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=MECA&amp;bolum=MECHATRONICS+ENGINEERING">
+            
+            
+            MECHATRONICS ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=BIO&amp;bolum=MOLECULAR+BIOLOGY+%26+GENETICS">
+            
+            
+            MOLECULAR BIOLOGY &amp; GENETICS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=PHIL&amp;bolum=PHILOSOPHY">
+            
+            
+            PHILOSOPHY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=PE&amp;bolum=PHYSICAL+EDUCATION">
+            
+            
+            PHYSICAL EDUCATION
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=PHYS&amp;bolum=PHYSICS">
+            
+            
+            PHYSICS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=POLS&amp;bolum=POLITICAL+SCIENCE%26INTERNATIONAL+RELATIONS">
+            
+            
+            POLITICAL SCIENCE&amp;INTERNATIONAL RELATIONS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=PRED&amp;bolum=PRIMARY+EDUCATION">
+            
+            
+            PRIMARY EDUCATION
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=PSY&amp;bolum=PSYCHOLOGY">
+            
+            
+            PSYCHOLOGY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=YADYOK&amp;bolum=SCHOOL+OF+FOREIGN+LANGUAGES">
+            
+            
+            SCHOOL OF FOREIGN LANGUAGES
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=SCED&amp;bolum=SECONDARY+SCHOOL+SCIENCE+AND+MATHEMATICS+EDUCATION">
+            
+            
+            SECONDARY SCHOOL SCIENCE AND MATHEMATICS EDUCATION
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=SPL&amp;bolum=SOCIAL+POLICY+WITH+THESIS">
+            
+            
+            SOCIAL POLICY WITH THESIS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=SOC&amp;bolum=SOCIOLOGY">
+            
+            
+            SOCIOLOGY
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=SWE&amp;bolum=SOFTWARE+ENGINEERING">
+            
+            
+            SOFTWARE ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=SWE&amp;bolum=SOFTWARE+ENGINEERING+WITH+THESIS">
+            
+            
+            SOFTWARE ENGINEERING WITH THESIS
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=TRM&amp;bolum=SUSTAINABLE+TOURISM+MANAGEMENT">
+            
+            
+            SUSTAINABLE TOURISM MANAGEMENT
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=SCO&amp;bolum=SYSTEMS+%26+CONTROL+ENGINEERING">
+            
+            
+            SYSTEMS &amp; CONTROL ENGINEERING
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=TRM&amp;bolum=TOURISM+ADMINISTRATION">
+            
+            
+            TOURISM ADMINISTRATION
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=WTR&amp;bolum=TRANSLATION">
+            
+            
+            TRANSLATION
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=TR&amp;bolum=TRANSLATION+AND+INTERPRETING+STUDIES">
+            
+            
+            TRANSLATION AND INTERPRETING STUDIES
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=TK&amp;bolum=TURKISH+COURSES+COORDINATOR">
+            
+            
+            TURKISH COURSES COORDINATOR
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=TKL&amp;bolum=TURKISH+LANGUAGE+%26+LITERATURE">
+            
+            
+            TURKISH LANGUAGE &amp; LITERATURE
+                                                
+        </a></td>
+    </tr>
+ 
+    <tr>
+        <td><a href="/scripts/sch.asp?donem=2018/2019-2&amp;kisaadi=LL&amp;bolum=WESTERN+LANGUAGES+%26+LITERATURES">
+            
+            
+            WESTERN LANGUAGES &amp; LITERATURES
+                                                
+        </a></td>
+    </tr>
+ 
+    </tbody>
+</table>
