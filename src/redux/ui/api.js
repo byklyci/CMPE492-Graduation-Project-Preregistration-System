@@ -29,9 +29,8 @@ class api {
 
   doFetchLessons = () => {
     return httpService.fetch({
-      path: "auth/login/",
+      path: "course/listCourses",
       method: "GET",
-      body: {},
       sendToken: false
     });
   };

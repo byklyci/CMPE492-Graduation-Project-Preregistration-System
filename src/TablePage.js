@@ -68,6 +68,20 @@ class TablePage extends Component {
     clearFilters();
     this.setState({ searchText: "" });
   };
+  componentDidMount() {
+    if (this.props.ui.lessons.length === 0) {
+      this.props.fetchLessonsRequest();
+    } else {
+      console.log(this.props.ui.lessons);
+    }
+  }
+  componentDidUpdate(prevProps, prevState) {
+    const { fetchLessonsInProgress, fetchLessonsHasError, fetchLessonsCompleted } = this.props.ui;
+    if (!fetchLessonsInProgress && !fetchLessonsHasError && fetchLessonsCompleted) {
+      this.props.fetchLessonsReset();
+    }
+  }
+
   render() {
     const columns = [
       {

@@ -1,8 +1,8 @@
 import { getCookie, TOKEN_COOKIE } from "./utils/cookies.js";
 
 const Configuration = {
-  API_URL: "https://dev.rewest.westerops.com/",
-  STATIC_HOST: "https://dev.rewest.westerops.com/",
+  API_URL: " http://127.0.0.1:8000/",
+  STATIC_HOST: " http://127.0.0.1:8000/",
   HTTP_TIMEOUT_MS: 40000 /* 40 sec */
 };
 
@@ -21,8 +21,8 @@ class HttpService {
             typeof sendToken === "undefined"
               ? "JWT " + getCookie(TOKEN_COOKIE)
               : sendToken === false
-                ? null
-                : "JWT " + getCookie(TOKEN_COOKIE),
+              ? null
+              : "JWT " + getCookie(TOKEN_COOKIE),
           ...overriddenHeaders
         },
         timeout: Configuration.HTTP_TIMEOUT_MS
@@ -69,8 +69,8 @@ class HttpService {
         typeof sendToken === "undefined"
           ? "JWT " + getCookie(TOKEN_COOKIE)
           : sendToken === false
-            ? null
-            : "JWT " + getCookie(TOKEN_COOKIE)
+          ? null
+          : "JWT " + getCookie(TOKEN_COOKIE)
       );
       request.send(requestOptions.body);
     });
