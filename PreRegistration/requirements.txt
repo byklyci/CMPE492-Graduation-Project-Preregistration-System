@@ -3,6 +3,7 @@ certifi==2018.11.29
 chardet==3.0.4
 dataclasses==0.6
 Django==2.1.7
+django-cors-headers==2.5.2
 django-stubs==0.9.0
 djangorestframework==3.9.1
 djangorestframework-stubs==0.2.0
