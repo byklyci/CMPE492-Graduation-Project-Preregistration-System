@@ -10,6 +10,10 @@ import {
   SIGNUP_FAILURE,
   SIGNUP_RESET,
   SIGNOUT_REQUEST,
+  FETCH_LESSONS_FAILURE,
+  FETCH_LESSONS_REQUEST,
+  FETCH_LESSONS_SUCCESS,
+  FETCH_LESSONS_RESET,
   signinRequest,
   signinFailure,
   signinReset,
@@ -17,11 +21,16 @@ import {
   signupRequest,
   signupFailure,
   signupReset,
-  signupSuccess
+  signupSuccess,
+  fetchLessonsFailure,
+  fetchLessonsRequest,
+  fetchLessonsReset,
+  fetchLessonsSuccess
 } from "./actions";
 
 const initialState = {
   user: {},
+  lessons: [],
   token: "",
 
   loggedIn: false,
@@ -34,7 +43,12 @@ const initialState = {
   signupInProgress: false,
   signupHasError: false,
   signupCompleted: false,
-  sigupError: ""
+  sigupError: "",
+
+  fetchLessonsInProgress: false,
+  fetchLessonsHasError: false,
+  fetchLessonsCompleted: false,
+  fetchLessonsError: ""
 };
 
 export const ui = handleAction(
@@ -46,7 +60,11 @@ export const ui = handleAction(
     signupFailure,
     signupReset,
     signupRequest,
-    signupSuccess
+    signupSuccess,
+    fetchLessonsFailure,
+    fetchLessonsRequest,
+    fetchLessonsReset,
+    fetchLessonsSuccess
   ),
   {
     next(state = initialState, action) {
@@ -134,6 +152,38 @@ export const ui = handleAction(
             signinCompleted: false,
             signinError: ""
           };
+        case FETCH_LESSONS_REQUEST:
+          return {
+            ...state,
+            fetchLessonsInProgress: true,
+            fetchLessonsHasError: false,
+            fetchLessonsCompleted: false
+          };
+
+        case FETCH_LESSONS_FAILURE:
+          return {
+            ...state,
+            fetchLessonsInProgress: false,
+            fetchLessonsHasError: true,
+            fetchLessonsCompleted: true,
+            fetchLessonsError: payload.detail
+          };
+        case FETCH_LESSONS_SUCCESS:
+          return {
+            ...state,
+            lessons: payload,
+            fetchLessonsInProgress: false,
+            fetchLessonsHasError: false,
+            fetchLessonsCompleted: true
+          };
+
+        case FETCH_LESSONS_RESET:
+          return {
+            ...state,
+            fetchLessonsInProgress: false,
+            fetchLessonsHasError: false,
+            fetchLessonsCompleted: false
+          };
 
         default:
           return {
@@ -142,11 +192,11 @@ export const ui = handleAction(
       }
     },
 
-    throw(state,action){
-        var newState = {
-            ...state
-        }
-        return newState;
+    throw(state, action) {
+      var newState = {
+        ...state
+      };
+      return newState;
     }
   },
   initialState

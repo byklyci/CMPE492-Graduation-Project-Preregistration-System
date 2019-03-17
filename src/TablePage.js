@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-import { Row, Col, Table, Divider, Tag, Input, Button, Icon } from "antd";
-import tables from "./component/table/index";
+
+import { connect } from "react-redux";
+import { Row, Col, Table, Input, Button, Icon } from "antd";
+import { fetchLessonsRequest, fetchLessonsReset } from "./redux/ui/actions.js";
 import boun from "./resources/bogazici.jpg";
 import Highlighter from "react-highlight-words";
+
+import { bindActionCreators } from "redux";
 class TablePage extends Component {
   state = {
     searchText: ""
@@ -311,5 +315,24 @@ class TablePage extends Component {
     );
   }
 }
+function mapStateToProps(appState, ownProps) {
+  return {
+    ui: appState.ui
+  };
+}
 
-export default TablePage;
+function mapDispatchToProps(dispatch) {
+  return {
+    ...bindActionCreators(
+      {
+        fetchLessonsRequest,
+        fetchLessonsReset
+      },
+      dispatch
+    )
+  };
+}
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TablePage);

@@ -12,7 +12,7 @@ class api {
     });
   };
 
-  doSignUp = (first_name, last_name,phone_number, password,email) => {
+  doSignUp = (first_name, last_name, phone_number, password, email) => {
     return httpService.fetch({
       path: "auth/register/",
       method: "POST",
@@ -23,6 +23,15 @@ class api {
         password,
         email
       },
+      sendToken: false
+    });
+  };
+
+  doFetchLessons = () => {
+    return httpService.fetch({
+      path: "auth/login/",
+      method: "GET",
+      body: {},
       sendToken: false
     });
   };

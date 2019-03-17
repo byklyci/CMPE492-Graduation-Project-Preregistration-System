@@ -1,11 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
 import { signinRequest, signinReset, signupRequest, signupReset } from "./redux/ui/actions.js";
-import { Button, Input } from "antd";
 import { bindActionCreators } from "redux";
 
 class Login extends React.Component {
-  //neden props var?
   constructor(props) {
     super(props);
     this.state = {
@@ -51,10 +49,6 @@ class Login extends React.Component {
                 onChange={this.handleChange}
                 placeholder="name and surname"
               />
-              <Input value="sdasdasda" style={{ maxWidth: 350 }} />
-              <Button className="mr-2" type="danger">
-                asdasdasdasds
-              </Button>
               <br />
               <br />
               Phone:{" "}

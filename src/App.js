@@ -36,14 +36,16 @@ class App extends Component {
             height: "100%"
           }}
         />
-        <div style={{ width: "100%", height: "100%", position:"absolute", top: 0, left: 0, backgroundColor: "#00000090" }} />
+        <div
+          style={{ width: "100%", height: "100%", position: "absolute", top: 0, left: 0, backgroundColor: "#00000090" }}
+        />
         <div
           style={{
             top: "35%",
             left: "35%",
             position: "absolute",
             width: 500,
-            height: 300,
+            height: 400,
             backgroundColor: "#FFFFFF90",
             zIndex: 20,
             borderRadius: 10,
