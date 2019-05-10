@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework.generics import ListAPIView
+from rest_framework.generics import ListAPIView, CreateAPIView
 from rest_framework.views import APIView
 from bs4 import BeautifulSoup
 from rest_framework.response import Response
@@ -12,6 +12,8 @@ import time
 
 from Courses import serializers as cs
 from Courses import models as cm
+from login import models as lm
+from login import serializers as ls
 
 
 class GetDepartment(APIView):
@@ -102,3 +104,30 @@ class ListCourses(ListAPIView):
         except:
             courses = cm.Course.objects.filter().exclude(code_sec="").exclude(hours__isnull=True)
         return courses
+
+
+class AddSelectedCourses(CreateAPIView):
+    serializer_class = cs.CourseListSerializer
+
+    def post(self, request, *args, **kwargs):
+        user = lm.RegisteredUser.objects.filter(id=self.request.user.id)
+        if user.exists():
+            user = user.first()
+        else:
+            return Response({"Status": "User does not exist."}, status=HTTP_400_BAD_REQUEST)
+
+        if user.selectedCourses.exists():
+            user.selectedCourses.clear()
+
+        for c_id in request.data["courses"]:
+            course = cm.Course.objects.filter(id=int(c_id)).first()
+            user.selectedCourses.add(course)
+
+        user.save()
+        serializer = ls.UserSerializer(user)
+        return Response(serializer.data, status=HTTP_200_OK)
+
+
+class SelectedCourses(ListAPIView):
+    serializer_class = ls.UserSerializer
+    queryset = lm.RegisteredUser.objects.all()
