@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'login',
 ]
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
     ),

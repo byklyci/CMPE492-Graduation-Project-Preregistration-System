@@ -16,7 +16,6 @@ mypy-extensions==0.4.1
 pyasn1==0.4.5
 PyJWT==1.7.1
 python-jose==3.0.1
-python-keycloak==0.16.0
 pytz==2018.9
 requests==2.21.0
 rsa==4.0
