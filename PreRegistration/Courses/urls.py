@@ -8,4 +8,6 @@ urlpatterns = [
     url(r'^listCourses$', ListCourses.as_view()),
     url(r'^addCourses$', AddSelectedCourses.as_view()),
     url(r'^selectedCourses$', SelectedCourses.as_view()),
+    url(r'^solver$', Solver.as_view()),
+    url(r'^allCourses$', SelectedCourses.as_view()),
 ]

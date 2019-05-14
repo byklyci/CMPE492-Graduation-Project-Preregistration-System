@@ -131,3 +131,9 @@ class AddSelectedCourses(CreateAPIView):
 class SelectedCourses(ListAPIView):
     serializer_class = ls.UserSerializer
     queryset = lm.RegisteredUser.objects.all()
+
+
+class Solver(ListAPIView):
+    serializer_class = ls.SolverSerializer
+    queryset = lm.RegisteredUser.objects.all()
+
