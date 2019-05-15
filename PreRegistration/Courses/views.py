@@ -137,3 +137,21 @@ class Solver(ListAPIView):
     serializer_class = ls.SolverSerializer
     queryset = lm.RegisteredUser.objects.all()
 
+
+class SaveCourses(APIView):
+
+    def post(self, request, *args, **kwargs):
+        data = request.data
+        for us in lm.RegisteredUser.objects.all():
+            us.takenCourses.clear()
+        for d in data["result"]:
+            user = lm.RegisteredUser.objects.get(id=int(d["id"]))
+            course = cm.Course.objects.get(code_sec=d["course"])
+            user.takenCourses.add(course)
+            user.save()
+        return Response("ok", status=HTTP_200_OK)
+
+
+class GetTakenCourses(ListAPIView):
+    serializer_class = ls.UserSerializer
+    queryset = lm.RegisteredUser.objects.all()

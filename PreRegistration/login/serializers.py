@@ -21,6 +21,7 @@ class CourseSerializer(serializers.ModelSerializer):
 
 class UserSerializer(serializers.ModelSerializer):
     selectedCourses = serializers.SerializerMethodField(read_only=True)
+    takenCourses = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model = RegisteredUser
@@ -30,11 +31,15 @@ class UserSerializer(serializers.ModelSerializer):
             "first_name",
             "last_name",
             "department",
-            "selectedCourses"
+            "selectedCourses",
+            "takenCourses"
         ]
 
     def get_selectedCourses(self, obj):
         return CourseSerializer(obj.selectedCourses, many=True).data
+
+    def get_takenCourses(self, obj):
+        return CourseSerializer(obj.takenCourses, many=True).data
 
 
 class LoginSerializer(serializers.ModelSerializer):
