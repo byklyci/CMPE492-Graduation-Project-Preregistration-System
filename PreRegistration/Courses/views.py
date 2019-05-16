@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework.generics import ListAPIView, CreateAPIView
+from rest_framework.generics import ListAPIView, CreateAPIView, RetrieveAPIView
 from rest_framework.views import APIView
 from bs4 import BeautifulSoup
 from rest_framework.response import Response
@@ -130,7 +130,11 @@ class AddSelectedCourses(CreateAPIView):
 
 class SelectedCourses(ListAPIView):
     serializer_class = ls.UserSerializer
-    queryset = lm.RegisteredUser.objects.all()
+
+    def get_queryset(self):
+        user_id = self.request.user.id
+        user = lm.RegisteredUser.objects.filter(id=user_id)
+        return user
 
 
 class Solver(ListAPIView):
@@ -154,4 +158,8 @@ class SaveCourses(APIView):
 
 class GetTakenCourses(ListAPIView):
     serializer_class = ls.UserSerializer
-    queryset = lm.RegisteredUser.objects.all()
+
+    def get_queryset(self):
+        user_id = self.request.user.id
+        user = lm.RegisteredUser.objects.filter(id=user_id)
+        return user
